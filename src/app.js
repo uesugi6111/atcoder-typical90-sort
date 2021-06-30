@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     atcoder-typical90-sort
 // @author uesugi
-// @description 典型90にgithubの解説リンクを追加
+// @description 典型90の問題を難易度順でソート
 // @version  0.0.2
 // @include  https://atcoder.jp/contests/typical90/tasks
 // @grant    none
@@ -25,3 +25,4 @@ const typical90Sort = () => {
 
     tr.forEach((e) => table.appendChild(e.e));
 }
+typical90Sort();
